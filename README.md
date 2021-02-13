@@ -19,6 +19,5 @@ Jonathan Clements
 Amanda Schneider  
 
 
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
