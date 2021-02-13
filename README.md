@@ -14,9 +14,10 @@ This information will be added later.
 
 
 ## Authors
-Nick Jones
-Jonathon Clements
-Amanda Schneider
+Nick Jones  
+Jonathan Clements  
+Amanda Schneider  
+
 
 
 ## License
