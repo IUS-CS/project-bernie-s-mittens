@@ -6,6 +6,10 @@ Pro-Vax is a web app that notifies users of their eligibility for a Covid-19 vac
 ## Build Info
 This information will be added later.
 
+## Required Operating Systems
+- Windows 8 or higher
+- macOS X 10.9 or higher
+
 ## Built With
 - Python
 - Django
