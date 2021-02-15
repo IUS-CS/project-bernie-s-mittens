@@ -14,8 +14,8 @@ This information will be added later.
 
 
 ## Authors
-Nick Jones
-Jonathon Clements
+Nick Jones  
+Jon Clements  
 Amanda Schneider
 
 
