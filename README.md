@@ -15,6 +15,10 @@ installed. Finally, you can install [Django](https://www.djangoproject.com/) usi
 - Windows 8 or higher
 - macOS X 10.9 or higher
 
+## Required Operating Systems
+- Windows 8 or higher
+- macOS X 10.9 or higher
+
 ## Built With
 - Python
 - Django
