@@ -129,9 +129,9 @@ CSRF_COOKIE_SECURE = True
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = False
 
-SECURE_HSTS_SECONDS = 30    # Refuses any connection besides HTTPS for 30 seconds
+# SECURE_HSTS_SECONDS = 0    # Refuses any connection besides HTTPS for 30 seconds
 
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 
