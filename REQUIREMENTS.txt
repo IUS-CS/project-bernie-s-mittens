@@ -1,0 +1,15 @@
+appdirs==1.4.4
+asgiref==3.3.1
+distlib==0.3.1
+Django==3.1.6
+filelock==3.0.12
+pbr==5.5.1
+pytz==2021.1
+six==1.15.0
+sqlparse==0.4.1
+stevedore==3.3.0
+views==0.3
+virtualenv==20.4.2
+virtualenv-clone==0.5.4
+virtualenvwrapper==4.8.4
+virtualenvwrapper-win==1.2.6

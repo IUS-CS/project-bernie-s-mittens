@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
+SECRET_KEY = '9eu@^5rx4)h&-56c1&(&pc9xrh&kfyd1so3izy-o8_iepvg$&q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -119,19 +118,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
-
-# Django deployment checklist settings
-# https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-SESSION_COOKIE_SECURE = True
-
-CSRF_COOKIE_SECURE = True
-
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-
-# SECURE_SSL_REDIRECT = False
-
-# SECURE_HSTS_SECONDS = 0    # Refuses any connection besides HTTPS for 30 seconds
-
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-
