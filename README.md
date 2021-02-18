@@ -15,15 +15,26 @@ installed. Finally, you can install [Django](https://www.djangoproject.com/) usi
 - Windows 8 or higher
 - macOS X 10.9 or higher
 
-## Required Operating Systems
-- Windows 8 or higher
-- macOS X 10.9 or higher
 
 ## Built With
 - Python
 - Django
 - PyCharm
 - SQLite
+
+## Initial Setup
+- Clone repository
+- Open terminal to root repository directory
+- `python --version` to confirm Python v3.8
+- `python -m venv django_env` to create virtual environment directory named django_env
+- `django_env\Scripts\activate` to start using virtual environment
+- `pip install requirements.txt` to correctly initialize virtual environment and django
+- Outside of the terminal, hold down Win + Pause to enter system properties and navigate to Advanced System Settings then Environment Variables. Click New... and label the variable DJANGO_SECRET_KEY and set it to the given key.
+- Return to your terminal and enter `cd src` to enter src directory
+- `python manage.py runserver` to activate server
+- visit http://127.0.0.1:8000/ in a web-browser that does not force HTTPS connection to check site status
+- `Ctrl + C` to stop the server when finished
+- `deactivate` to leave virtual environment
 
 
 ## Authors
