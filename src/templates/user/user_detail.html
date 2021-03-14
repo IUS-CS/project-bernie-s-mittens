@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>User details: {{ object.username }}</h1>
+    {{ object.home_state }}
+    {{ object.work_state }}
+    {{ object.age }}
+    {{ object.vaccine_group }}
+{% endblock %}
