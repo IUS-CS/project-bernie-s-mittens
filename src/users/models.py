@@ -23,5 +23,5 @@ class User(models.Model):
     work_state = models.CharField(max_length=2, choices=STATES)
     age = models.PositiveSmallIntegerField(validators=[MinValueValidator(1), MaxValueValidator(120)])
     vaccine_group = models.CharField(max_length=1, choices=GROUPS)
-    notify = models.BooleanField()
-    is_notified = models.BooleanField()
+    notify = models.BooleanField(default=False)
+    is_notified = models.BooleanField(default=False)
