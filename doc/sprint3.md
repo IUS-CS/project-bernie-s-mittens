@@ -12,12 +12,12 @@ Members present:
   
   This sprint, we completed:
   
-  * planning/project board and the design pattern doc. Also did some research into the state covid-19  sites   that we will need to access
+  * planning/project board and the design pattern doc. Also did some research into the state covid-19 sites that we will need to access
   * learned basics of Selenium for testing
   * moved location of virtual_env and requirements.txt into src directory
   * Removed helloWorld from the list of apps
   * Added 'users' and 'pages' apps
-  * Defined the forms for a 'user' and made the form for users to fill out. This form can be reached vi     (normal URL)/create
+  * Defined the forms for a 'user' and made the form for users to fill out. This form can be reached vi /create
   
   Here are screenshots of what we did:
   
@@ -31,7 +31,7 @@ Members present:
   * We agree on direction of the project
   * Everyone is working on the project
   * Resolved the drop-down menu
-  * Communication is good amoung team members
+  * Communication is good among team members
   
   ### Bad
   
