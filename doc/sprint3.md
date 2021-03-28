@@ -17,7 +17,7 @@ Members present:
   * moved location of virtual_env and requirements.txt into src directory
   * Removed helloWorld from the list of apps
   * Added 'users' and 'pages' apps
-  * Defined the forms for a 'user' and made the form for users to fill out. This form can be reached vi /create
+  * Defined the forms for a 'user' and made the form for users to fill out. This form can be reached via /create
   
   Here are screenshots of what we did:
   
