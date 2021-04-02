@@ -9,5 +9,6 @@ class UserForm(forms.ModelForm):
             'home_state',
             'work_state',
             'age',
+            'essential',
             'vaccine_group',
         ]
