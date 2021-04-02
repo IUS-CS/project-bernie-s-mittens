@@ -16,7 +16,7 @@ def user_create_view(request):
 
 
 def user_detail_view(request):
-    obj = User.objects.get(id=1)
+    obj = User.objects.get(id=2)
     context = {
         'object': obj
     }
