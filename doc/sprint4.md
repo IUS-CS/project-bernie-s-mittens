@@ -17,7 +17,7 @@ Members present:
   * Adding a button to connect the home page to the eligibility page
   * Adding a navigation bar
   * Adding the Design Pattern doc
-  * Adding testing via Selenia
+  * Adding testing via Selenium
   
   ## Retro
   
