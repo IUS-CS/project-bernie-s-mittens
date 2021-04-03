@@ -13,3 +13,9 @@ virtualenv==20.4.2
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 virtualenvwrapper-win==1.2.6
+pytest==6.2.2
+selenium==3.141.0
+setuptools==49.2.1
+pip==20.2.3
+py==1.10.0
+urllib3==1.26.4
