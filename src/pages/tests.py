@@ -67,3 +67,92 @@ class TestIntrotests():
         # 13 | click | css=option:nth-child(5) |
         self.driver.find_element(By.CSS_SELECTOR, "option:nth-child(5)").click()
 
+    def test_next(self):
+        # Test name: next
+        # Step # | name | target | value
+        # 1 | open | / |
+        self.driver.get("http://127.0.0.1:8000/")
+        # 2 | setWindowSize | 854x700 |
+        self.driver.set_window_size(854, 700)
+        # 3 | click | linkText=About |
+        self.driver.find_element(By.LINK_TEXT, "About").click()
+        # 4 | click | linkText=Eligibility |
+        self.driver.find_element(By.LINK_TEXT, "Eligibility").click()
+        # 5 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+        # 6 | click | linkText=Eligibility |
+        self.driver.find_element(By.LINK_TEXT, "Eligibility").click()
+        # 7 | click | linkText=About |
+        self.driver.find_element(By.LINK_TEXT, "About").click()
+        # 8 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+        # 9 | click | linkText=Am I eligible? |
+        self.driver.find_element(By.LINK_TEXT, "Am I eligible?").click()
+        # 10 | click | id=id_home_state |
+        self.driver.find_element(By.ID, "id_home_state").click()
+        # 11 | select | id=id_home_state | label=INDIANA
+        dropdown = self.driver.find_element(By.ID, "id_home_state")
+        dropdown.find_element(By.XPATH, "//option[. = 'INDIANA']").click()
+        # 12 | click | css=#id_home_state > option:nth-child(2) |
+        self.driver.find_element(By.CSS_SELECTOR, "#id_home_state > option:nth-child(2)").click()
+        # 13 | click | id=id_work_state |
+        self.driver.find_element(By.ID, "id_work_state").click()
+        # 14 | select | id=id_work_state | label=KENTUCKY
+        dropdown = self.driver.find_element(By.ID, "id_work_state")
+        dropdown.find_element(By.XPATH, "//option[. = 'KENTUCKY']").click()
+        # 15 | click | css=#id_work_state > option:nth-child(3) |
+        self.driver.find_element(By.CSS_SELECTOR, "#id_work_state > option:nth-child(3)").click()
+        # 16 | type | id=id_age | 14
+        self.driver.find_element(By.ID, "id_age").send_keys("14")
+        # 17 | mouseDownAt | id=id_age | 131.89999389648438,6.3333282470703125
+        element = self.driver.find_element(By.ID, "id_age")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).click_and_hold().perform()
+        # 18 | mouseMoveAt | id=id_age | 131.89999389648438,6.3333282470703125
+        element = self.driver.find_element(By.ID, "id_age")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+        # 19 | mouseUpAt | id=id_age | 131.89999389648438,6.3333282470703125
+        element = self.driver.find_element(By.ID, "id_age")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).release().perform()
+        # 20 | click | id=id_age |
+        self.driver.find_element(By.ID, "id_age").click()
+        # 21 | type | id=id_age | 22
+        self.driver.find_element(By.ID, "id_age").send_keys("22")
+        # 22 | click | id=id_age |
+        self.driver.find_element(By.ID, "id_age").click()
+        # 23 | click | id=id_essential |
+        self.driver.find_element(By.ID, "id_essential").click()
+        # 24 | select | id=id_essential | label=No
+        dropdown = self.driver.find_element(By.ID, "id_essential")
+        dropdown.find_element(By.XPATH, "//option[. = 'No']").click()
+        # 25 | click | css=#id_essential > option:nth-child(3) |
+        self.driver.find_element(By.CSS_SELECTOR, "#id_essential > option:nth-child(3)").click()
+        # 26 | click | id=id_vaccine_group |
+        self.driver.find_element(By.ID, "id_vaccine_group").click()
+        # 27 | select | id=id_vaccine_group | label=B
+        dropdown = self.driver.find_element(By.ID, "id_vaccine_group")
+        dropdown.find_element(By.XPATH, "//option[. = 'B']").click()
+        # 28 | click | css=#id_vaccine_group > option:nth-child(3) |
+        self.driver.find_element(By.CSS_SELECTOR, "#id_vaccine_group > option:nth-child(3)").click()
+        # 29 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+        # 30 | click | linkText=Am I eligible? |
+        self.driver.find_element(By.LINK_TEXT, "Am I eligible?").click()
+        # 31 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+        # 32 | click | linkText=Eligibility |
+        self.driver.find_element(By.LINK_TEXT, "Eligibility").click()
+        # 33 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+        # 34 | click | linkText=Am I eligible? |
+        self.driver.find_element(By.LINK_TEXT, "Am I eligible?").click()
+        # 35 | click | linkText=About |
+        self.driver.find_element(By.LINK_TEXT, "About").click()
+        # 36 | click | linkText=Eligibility |
+        self.driver.find_element(By.LINK_TEXT, "Eligibility").click()
+        # 37 | click | linkText=Home |
+        self.driver.find_element(By.LINK_TEXT, "Home").click()
+
+
