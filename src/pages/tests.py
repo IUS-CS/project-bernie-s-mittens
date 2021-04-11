@@ -351,3 +351,4 @@ class TestIntrotests():
         # 23 | click | id=id_age |
         self.driver.find_element(By.ID, "id_age").click()
 
+
