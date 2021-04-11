@@ -350,4 +350,3 @@ class TestIntrotests():
         self.driver.find_element(By.ID, "id_age").send_keys("110")
         # 23 | click | id=id_age |
         self.driver.find_element(By.ID, "id_age").click()
-
