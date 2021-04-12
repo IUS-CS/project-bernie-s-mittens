@@ -21,3 +21,9 @@ def user_detail_view(request):
         'object': obj
     }
     return render(request, "user/user_detail.html", context)
+
+def user_good_view(request):
+    return render(request, "user/user_good.html")
+
+def user_not_view(request):
+    return render(request, "user/user_not.html")

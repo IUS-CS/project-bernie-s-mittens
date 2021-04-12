@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from users.views import user_detail_view, user_create_view
+from users.views import user_detail_view, user_create_view, user_good_view, user_not_view
 from pages.views import home_view, about_view
 
 urlpatterns = [
@@ -25,4 +25,6 @@ urlpatterns = [
     path('eligibility/', user_create_view),
     path('home/', home_view),
     path('about/', about_view),
+    path('eligible/', user_good_view),
+    path('ineligible/', user_not_view),
 ]
