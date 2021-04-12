@@ -5,18 +5,22 @@ from .models import User
 
 def user_create_view(request):
     form = UserForm(request.POST or None)
-    if form.is_valid():
-        form.save()
-        form = UserForm()
-
     context = {
         'form': form
     }
+    if form.is_valid():
+        form.save()
+        form = UserForm()
+        age = int(request.POST.get("age"))
+        if age > 16:
+            return render(request, "user/user_good.html")
+        else:
+            return render(request, "user/user_not.html")
     return render(request, "user/user_create.html", context)
 
 
 def user_detail_view(request):
-    obj = User.objects.get(id=2)
+    obj = User.objects.get(id=1)
     context = {
         'object': obj
     }
