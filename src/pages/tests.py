@@ -31,14 +31,14 @@ class TestIntrotests():
         self.driver.set_window_size(854, 700)
         # 3 | click | linkText=Am I eligible? |
         self.driver.find_element(By.LINK_TEXT, "Am I eligible?").click()
-        # 4 | open | /create |
-        self.driver.get("http://127.0.0.1:8000/create")
+        # 4 | open | /eligibility |
+        self.driver.get("http://127.0.0.1:8000/eligibility")
 
     def test_create1(self):
         # Test name: create1
         # Step # | name | target | value
         # 1 | open | /create/ |
-        self.driver.get("http://127.0.0.1:8000/create/")
+        self.driver.get("http://127.0.0.1:8000/eligibility/")
         # 2 | setWindowSize | 854x700 |
         self.driver.set_window_size(854, 700)
         # 3 | click | id=id_home_state |

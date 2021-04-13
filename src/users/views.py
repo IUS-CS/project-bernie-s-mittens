@@ -12,7 +12,7 @@ def user_create_view(request):
         form.save()
         form = UserForm()
         age = int(request.POST.get("age"))
-        if age > 16:
+        if age >= 16:
             return render(request, "user/user_good.html")
         else:
             return render(request, "user/user_not.html")
