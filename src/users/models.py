@@ -29,4 +29,3 @@ class User(models.Model):
     age = models.PositiveSmallIntegerField(validators=[MinValueValidator(1), MaxValueValidator(120)])
     essential = models.CharField(max_length=1, choices=ESSENTIAL)
     vaccine_group = models.CharField(max_length=1, choices=GROUPS)
-
