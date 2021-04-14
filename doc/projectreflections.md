@@ -11,3 +11,12 @@ I do have a few regrets about this project. I wish I had been able to devote mor
 As far as Pro-Vax is concerned, I doubt that I will do more with the project. But I am determined to use Python and Django again to work on a personal project this summer.  
 
 The only thing that I feel made this project difficult to work on was the time constraints that our team faced. All three of us have jobs in addition to our classes. That sometimes made it difficult to schedule meetings and communicate in real time. Looking back, it probably would have been helpful to set a scheduled meeting once a week for discussion.
+
+###Nick:
+The Software Engineering project was certainly an eye-opening experience to the level of work required into making a website. My initial view of a website was simply a body of HTML code, but now I understand its multiple languages and systems working together. The most rewarding part of this project was seeing all the progress made despite having zero previous experiences. Learning Git and GitHub were crucial, and this was great practice for working on a project with a team.
+
+I found Django, Python, and HTML relatively easy to pick up and with the exuberant documentation on each it was easy to use. Admittedly, as someone with no interest in web development, I do not forsee using them in the future. I am glad to have learned them regardless in case they apply elsewhere.
+
+I feel most of the shortcomings of our project stem from the working-from-home environment of the semester. This limited communication which cascaded into numerous issues. That compounded with jobs, other classes, and The Plague made working together quite difficult.
+
+I have no plans to continue Pro-Vax, but am more open to web development than before. For future students, I would recommend choosing a project using a language and format that everyone is already familiar with to promote interest and drive from all members.
