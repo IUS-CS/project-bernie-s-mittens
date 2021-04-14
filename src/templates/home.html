@@ -1,8 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
     <h1>Project Pro-Vax</h1>
     <p>A short survey determining Covid-19 vaccine eligibility</p>
 
-    <button><a href="/eligibility">Am I eligible?</a></button>
+    <style>
+    .button {background-color: rgba(1, 50, 67, 1); border: none; color: white; text-decoration: none; padding: 15px 15px}
+    .button:hover{background-color: rgba(44, 62, 80, 1)}
+    </style>
+    <a href="/eligibility" class="button">Am I eligible?</a>
 {% endblock %}
