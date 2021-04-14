@@ -20,3 +20,10 @@ I found Django, Python, and HTML relatively easy to pick up and with the exubera
 I feel most of the shortcomings of our project stem from the working-from-home environment of the semester. This limited communication which cascaded into numerous issues. That compounded with jobs, other classes, and The Plague made working together quite difficult.
 
 I have no plans to continue Pro-Vax, but am more open to web development than before. For future students, I would recommend choosing a project using a language and format that everyone is already familiar with to promote interest and drive from all members.
+
+###Jonathan 
+Working on this project showed me how hard something can be. I really thought I could learn Python along with the other stuff we needed to learn. Django was a struggle but exciting at the same time. It is nice to see how different code like Python works with HTML and a database. It was nice to work in a team and wish I could have done more to help my teammates out with the project.
+
+I have no interest to continue with the project after the semester but I think Python will be the next language I learn over the summer and I think I will use Django again too.
+
+Personal issues took time away from working on the project as much as I wanted. I also learned a lot about git and GitHub and know I have more to learn. I had struggles with command line and virtual environment for Python.  
