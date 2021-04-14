@@ -4,7 +4,11 @@
     <h1>Eligibility</h1>
     <form action='.' method='POST'> {% csrf_token %}
         {{ form.as_p }}
-            <input type='submit' value='submit'/>
+            <style>
+            .button {background-color: rgba(1, 50, 67, 1); border: none; color: white; text-decoration: none; padding: 15px 15px;}
+            .button:hover{background-color: rgba(44, 62, 80, 1)}
+            </style>
+            <input type='submit' value='submit'; class="button"/>
 
     </form>
 {% endblock %}
