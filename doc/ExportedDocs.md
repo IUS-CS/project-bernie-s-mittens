@@ -1,6 +1,6 @@
-#All Documentation for ProVax program                                         Team Bernie’s Mittens
+# All Documentation for ProVax program                                         Team Bernie’s Mittens
 
-    Begin by downloading Python and then Django(python -m pip install Django), for Django 3.1 you 
+Begin by downloading Python and then Django(python -m pip install Django), for Django 3.1 you 
 need Python version 3.6 or later. You can check your Python version in command line with “py -m 
 django –version” or for Mac/Linux “python -m django –version”.
 For the rest of this document we will only use the commands for Mac/Linux. Git clone the repository in 
@@ -19,7 +19,7 @@ With the program running it will bring up the HOME page:
 
 This is framed from the HTML code. It starts with the base.html:
 
-![Imageof base.html](images/Screenshot_base_html.png?raw=true)
+![Image of base.html](images/Screenshot_base_html.png?raw=true)
 
 Number 1 highlighted is the three URL’s to the pages: home(already pictured), eligibility, and about.
 Number 2 highlighted is the Title of the program and the bottom highlight is the link to user_create.html
@@ -45,12 +45,12 @@ corresponding fields. Age is taken in straight from the user_detail.html object 
  ![Image of users/views.py](images/Screenshot_users_views_py.png?raw=true)
 
  The user_detail_view(blue) gets the data from the database and based on the data from 
-user_creata_view(red) will be sent to either user_good_view(green) or user_not_view(green).
+user_create_view(red) will be sent to either user_good_view(green) or user_not_view(green).
 
 ![Image of Eligibility Good](images/GoodPage.png?raw=true)
 ![Image of Ineligible page](images/NotGoodPage.png?raw=true)
 
-###Program Use
+### Program Use
 *  Once installed and in the virtual environment you will run the server.
 *  Click on the link or copy and paste the server address http://127.0.0.1:8000/ into a browser window.
 *  From the home page you can click the “Am I eligible?” button.
