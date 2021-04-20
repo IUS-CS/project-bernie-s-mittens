@@ -3,6 +3,10 @@ from .forms import UserForm
 from .models import User
 
 
+# The logic for determining eligibility is based solely on user's age
+# The age selected is requested directly from POST
+# Depending on value selected for age, the user is directed to a landing page
+
 def user_create_view(request):
     form = UserForm(request.POST or None)
     context = {

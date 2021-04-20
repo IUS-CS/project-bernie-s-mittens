@@ -23,7 +23,7 @@ class TestFRfinal():
         self.driver.quit()
 
     def test_f0(self):
-        # Test name: f0
+        # Test name: f0 Testing navigation menu
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -49,7 +49,7 @@ class TestFRfinal():
         self.driver.close()
 
     def test_f1(self):
-        # Test name: f1
+        # Test name: f1 Testing dropdown menus and integer selector with an ineligible user
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -93,7 +93,7 @@ class TestFRfinal():
         self.driver.find_element(By.CSS_SELECTOR, ".button").click()
 
     def test_f2(self):
-        # Test name: f2
+        # Test name: f2 Testing input with an eligible user
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -137,7 +137,7 @@ class TestFRfinal():
         self.driver.find_element(By.CSS_SELECTOR, ".button").click()
 
     def test_f3(self):
-        # Test name: f3
+        # Test name: f3 Testing response for incomplete input
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -183,7 +183,7 @@ class TestFRfinal():
         self.driver.find_element(By.CSS_SELECTOR, ".button").click()
 
     def test_f4(self):
-        # Test name: f4
+        # Test name: f4 Testing response for age = 0
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -267,7 +267,7 @@ class TestFRfinal():
         self.driver.close()
 
     def test_f5(self):
-        # Test name: f5
+        # Test name: f5 Testing response to age > 120
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -327,7 +327,7 @@ class TestFRfinal():
         self.driver.find_element(By.CSS_SELECTOR, ".button").click()
 
     def test_f6(self):
-        # Test name: f6
+        # Test name: f6 Testing response to eligible user who is not essential
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")
@@ -371,7 +371,7 @@ class TestFRfinal():
         self.driver.find_element(By.CSS_SELECTOR, ".button").click()
 
     def test_f7(self):
-        # Test name: f7
+        # Test name: f7 Testing that choices clear when navigation buttons are chosen
         # Step # | name | target | value
         # 1 | open | / |
         self.driver.get("http://127.0.0.1:8000/")

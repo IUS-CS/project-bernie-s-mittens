@@ -20,11 +20,11 @@ from pages.views import home_view, about_view
 
 urlpatterns = [
     path('', home_view, name='home'),
-    path('admin/', admin.site.urls),
-    path('user/', user_detail_view),
-    path('eligibility/', user_create_view),
-    path('home/', home_view),
-    path('about/', about_view),
-    path('eligible/', user_good_view),
-    path('ineligible/', user_not_view),
+    path('admin/', admin.site.urls),  # Django admin site
+    path('user/', user_detail_view),  # Access user input
+    path('eligibility/', user_create_view),  # The vaccine eligibility survey page
+    path('home/', home_view),  # The ProVax home page
+    path('about/', about_view),  # About the authors
+    path('eligible/', user_good_view),  # Landing page for eligible users
+    path('ineligible/', user_not_view),  # Landing page for ineligible users
 ]

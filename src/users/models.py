@@ -3,6 +3,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 
 
 # Create your models here.
+# The possible values for fields in the survey form
 class User(models.Model):
 
     # Selection choices
